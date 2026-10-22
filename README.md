@@ -14,6 +14,8 @@ News entries live inside `<section id="news">`. Insert new `<li>` entries at the
 
 The former Research URL redirects to the homepage Publications section. The CV page and PDF have been removed.
 All three social logos link to profile URLs supplied by the owner. No account numbers are displayed. Photography uses optimized copies from the owner-selected project collection. The original 2025 portfolio is available at `assets/Yao-Zhang-Photography-2025.pdf`.
+The gallery currently contains all 33 photographs from the updated personal-homepage collection. Each source image has a smaller gallery preview and a larger lightbox version; original files remain unchanged.
+The portfolio's date is August 2025. Website footer dates are explicit edit dates, currently October 22, 2026; update them when publishing new content.
 All research claims and submission statuses follow the current local CV and should be updated when decisions arrive.
 
 ## Publish
