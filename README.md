@@ -2,17 +2,19 @@
 
 Live site: https://chris-yz888.github.io/
 
-Static HTML/CSS/JavaScript. No build dependencies.
+Static HTML, CSS, and JavaScript. No build dependencies.
 
 ## Edit
-- About: `index.html`
-- Research: `research/index.html`
-- Gallery: `photography/index.html` (update both `src` and `data-src`)
-- CV: `cv/index.html`; downloadable PDF: `assets/Yao-Zhang-CV.pdf`
-- Styling: `assets/css/style.css`
+- Homepage, News, publications, education, and honors: `index.html`
+- Photography gallery and social handles: `photography/index.html`
+- Styling: `assets/css/academic.css`
+- Photo viewer: `assets/js/main.js`
 
-The profile is based on the current CV dated 2026-09-29. Submission statuses follow that CV and should be updated when decisions arrive.
-The gallery uses optimized WebP copies of selected personal photographs; original files remain unchanged.
+News entries live inside `<section id="news">`. Insert new `<li>` entries at the top. Only use verified event dates; the EMNLP acceptance currently has a year because the source CV does not specify its month.
+
+The former Research URL redirects to the homepage Publications section. The CV page and PDF have been removed.
+Social handles are supplied by the owner. Bilibili links directly to the confirmed profile. Xiaohongshu and Douyin currently use clearly labeled account-search links and copy-ID buttons, pending permanent profile share URLs.
+All research claims and submission statuses follow the current local CV and should be updated when decisions arrive.
 
 ## Publish
-Push to `main`. GitHub Pages serves the repository root.
+Push to `main`; GitHub Pages serves the repository root.
