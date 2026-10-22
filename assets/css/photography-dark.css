@@ -1,0 +1,36 @@
+/* The photography page uses its own black canvas. */
+body.photography-dark {
+  --ink: #eeeeee;
+  --muted: #a6a6a6;
+  --accent: #dedede;
+  --line: #282828;
+  --soft: #0a0a0a;
+  color-scheme: dark;
+  background: #000;
+  color: var(--ink);
+}
+.photography-dark h1,
+.photography-dark h2,
+.photography-dark h3 { color: #f5f5f5; }
+.photography-dark .site-header { background: #000000f5; }
+.photography-dark nav a { color: #aaa; }
+.photography-dark nav a:hover,
+.photography-dark nav a[aria-current] { color: #fff; }
+.photography-dark .profile-interests { color: #aaa; }
+.photography-dark .photo-introduction > p { color: #bdbdbd; }
+.photography-dark .social-profile { background: #000; }
+.photography-dark .social-platform-links > a {
+  background: #000;
+  color: #eee;
+  border-color: #303030;
+}
+.photography-dark .social-platform-links > a:hover {
+  background: #111;
+  border-color: #777;
+}
+.photography-dark .social-platform-links img { filter: brightness(0) invert(1); }
+.photography-dark .social-identity img { border-color: #333; }
+.photography-dark .zoom-indicator { background: #000c; color: #fff; }
+.photography-dark .lightbox { background: #000; }
+.photography-dark .lightbox::backdrop { background: #000e; }
+.photography-dark .skip { background: #111; color: #fff; }
